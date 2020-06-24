@@ -1,5 +1,4 @@
 module "vpc" {
-  source  = "terraform-aws-modules/vpc/aws"
-  version = "2.44.0"
-  # insert the 14 required variables here
+  source  = "app.terraform.io/joe_tsai-training/vpc/aws"
+  version = "1.64.0"
 }
